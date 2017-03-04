@@ -1,0 +1,15 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import "../bower_components/normalize-css/normalize.css";
+
+// Bourbon, Bourbon Neat, and Bitters
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/neat/core/neat";
+@import "base/base";
+
+// Layouts
+@import "layouts/global";
+
+// Components
+@import "components/navigation";
